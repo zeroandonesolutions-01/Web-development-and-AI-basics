@@ -16,6 +16,163 @@
       </header>
     </article>
 
+    <!-- Nav -->
+    <nav aria-label="Primary Site Navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <main>
+      <h1>The Importance of Semantic HTML</h1>
+
+      <article>
+        <p>
+          Semantic HTML elements like <code>&lt;main&gt;</code>,
+          <code>&lt;header&gt;</code>, and <code>&lt;nav&gt;</code> provide
+          meaning and structure to web content...
+        </p>
+
+        <section>
+          <h2>Accessibility Benefits</h2>
+          <p>
+            Screen readers and other assistive technologies rely heavily on
+            semantic structure to help users understand the layout and content
+            hierarchy.
+          </p>
+        </section>
+      </article>
+
+      <aside>
+        <h3>Related Topics</h3>
+        <ul>
+          <li><a href="#">ARIA Attributes</a></li>
+          <li><a href="#">CSS Grid Layouts</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Section -->
+    <main>
+      <h1>Welcome to Our Product Lineup</h1>
+
+      <section>
+        <h2>Our Core Design Principles</h2>
+        <p>
+          Every product we create is built on a foundation of three principles:
+          usability, sustainability, and elegance.
+        </p>
+
+        <ul>
+          <li>Focus on the user experience.</li>
+          <li>Use renewable materials.</li>
+          <li>Maintain a clean, minimal aesthetic.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Featured Products</h2>
+        <p>Explore our latest and most popular items.</p>
+
+        <div class="product-card">
+          <h3>The Zen Chair</h3>
+          <p>A perfect blend of modern style and ergonomic comfort.</p>
+        </div>
+
+        <div class="product-card">
+          <h3>The Lumina Lamp</h3>
+          <p>Shedding light on sustainability with energy-efficient design.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Article -->
+
+    <main>
+      <article aria-labelledby="post-title-1">
+        <header>
+          <h2 id="post-title-1">Understanding the New CSS Container Queries</h2>
+          <p class="byline">
+            By <a href="/authors/jane-doe">Jane Doe</a> on
+            <time datetime="2025-10-07">October 7, 2025</time>
+          </p>
+        </header>
+
+        <p>
+          Container queries allow elements to respond to the size of their
+          parent container, rather than the viewport size...
+        </p>
+
+        <section>
+          <h3>Syntax and Usage</h3>
+          <p>
+            The basic syntax involves using <code>@container</code> in your
+            stylesheet...
+          </p>
+        </section>
+
+        <footer>
+          <ul class="tags">
+            <li><a href="/tag/css">CSS</a></li>
+            <li><a href="/tag/web-dev">Web Dev</a></li>
+          </ul>
+          <p><a href="#comments">Read 42 comments</a></p>
+        </footer>
+      </article>
+
+      <article aria-labelledby="post-title-2">
+        <header>
+          <h2 id="post-title-2">The Future of AI in Web Accessibility</h2>
+        </header>
+      </article>
+    </main>
+
+    <!-- Tables -->
+
+    <table>
+      <tr>
+        <th colspan="2">Fruit and Colors</th>
+      </tr>
+      <tr></tr>
+      <tr>
+        <th>Fruit</th>
+        <th>Color</th>
+      </tr>
+      <tr>
+        <td rowspan="1">Apple</td>
+        <td rowspan="1">Red</td>
+      </tr>
+    </table>
+
+    <!-- Footer -->
+    <footer>
+      <nav aria-label="Footer Navigation">
+        <ul>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms of Service</a></li>
+          <li><a href="/sitemap">Sitemap</a></li>
+          <li><a href="/careers">Careers</a></li>
+        </ul>
+      </nav>
+
+      <address>
+        Contact us at: <a href="mailto:info@company.com">info@company.com</a
+        ><br />
+        123 Main St, Suite 400, City, State 12345
+      </address>
+
+      <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+
+      <p>
+        Document last updated:
+        <time datetime="2025-10-07">October 7, 2025</time>
+      </p>
+    </footer>
+
     <h1>Main header</h1>
     <p>Main paragraph</p>
     <h2>Sub header</h2>
